@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 25px 30px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    background-color: #aaaaaa;
+    font-size: 18px;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 10px 20px;
+}
+.menu > li:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+}
+
+.card__title {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card__desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card__price {
+    margin-bottom: 10px;
+}
+
+.card__btn {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/*-----------------*/
+.product {
+    text-align: center;
+}
+.product__image {
+    width: 400px;
+}
+
+.product__price {
+    margin-bottom: 10px;
+}
+.product__views {
+    margin-bottom: 10px;
+}
+
+.product__feedback  {
+    text-align: left;
+    font-size: 14px;
+}
+
+.feedback__form  {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.feedback__person {
+    display: block;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.feedback__text {
+    display: block;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.product__feedback-person {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------*/
+
+.basket__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.basket__product > h3 {
+    width: calc(100% / 4);
+}
+
+/*-------------------------------*/
+
